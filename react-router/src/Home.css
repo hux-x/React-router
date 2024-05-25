@@ -1,0 +1,60 @@
+.Home-comp{
+    height: 88vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100vw;
+    background-image: url('./assets/gettyimages-946932358-1622130052.jpg');
+    color: white;
+    display: flex;
+    place-content: center;
+    padding: 20px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .shade{
+        background-color: rgba(0, 0, 0, 0.419);
+        min-height: 55vh;
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 20px;
+        align-items: center;
+        padding: 20px;
+        overflow:hidden;
+        margin-top: 10vh;
+    }
+    .shade:hover{
+        background-color: rgba(0, 0, 0, 0.705);
+        transition-duration: 1s;
+    }
+    .shade{
+        height: 60vh;
+    }
+    .find-van{
+        width: 80%;
+        height: 15%;
+        background-color:#db5e2966;
+        padding: 10px;
+    }
+    .find-van:hover{
+        background-color: #db5f29;
+        transition-duration: 1s;
+        
+    }
+    
+    .front{
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    @media (min-width: 700px) {
+  
+        .intro-text{
+        font-size: 3rem;
+          }
+          .front{
+            font-size: 1.5rem;
+          }
+        }

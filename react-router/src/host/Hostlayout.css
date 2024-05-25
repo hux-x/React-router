@@ -1,0 +1,19 @@
+#links{
+    display: flex;
+    justify-content: flex-start;
+    padding: 40px;
+    gap: 4vw;    
+}
+.path-link{
+    text-decoration: none;
+    color: rgb(245, 181, 83);
+}
+.path-link:hover{
+    text-decoration: underline;
+    
+}
+.HostLayout-comp{
+    background-color: rgb(133, 72, 54);
+    height: 100vh;
+    
+}

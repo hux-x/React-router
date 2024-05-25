@@ -1,0 +1,63 @@
+#front-image {
+    height: 40vh;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.about-comp {
+    background-color: antiquewhite;
+    overflow: hidden;
+    padding: 10px;
+    color: #f5b553;
+}
+
+.about-title {
+    
+    font-size: 2rem;
+    padding: 10px;
+    line-height: 1;
+    text-align: justify;
+}
+
+.container {
+    background-color: #854836;
+    max-width: 100vw;
+    padding: 10px;
+    color: #f5b553;
+}
+
+.container .exp {
+    text-align: justify;
+    padding: 10px;
+    width: 90%;
+}
+
+#exp-two {
+    margin-top: 10px;
+    width: 90%;
+    text-align: justify;
+    padding: 10px;
+
+}
+
+#explore-vans {
+    background-color:#f5b4536b ;
+    text-align: justify;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.container button {
+    width: 40%;
+    height: 70px;
+    color: white;
+    background-color: brown;
+    margin: 10px;
+}
+
+.van-flex{
+    display: flex;
+}

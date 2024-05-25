@@ -1,0 +1,46 @@
+.VanDescription{
+    padding: 20px;
+    background-color: rgb(133, 72, 54);
+    min-height: 100vh;
+    color : rgb(245, 181, 83);
+}
+img .Description-image{
+    width: 80vw;
+}
+#VanDesc-title,#VanDesc-price,#VanDesc-descriptio,#VanDesc-about{
+    text-align: left;
+    margin-top: 2vh;
+
+}
+#VanDesc-description{
+    font-size: 1.1rem;
+    margin-top: 2vh;
+    text-align: left;
+}
+.VanDesc-goBack{
+    margin-bottom: 2vh;
+    text-decoration: underline;
+    text-align: left;
+    margin-top: 0.5vh;
+    color:  rgb(245, 181, 83);
+  
+}
+#goback-arrow{
+    font-size: 1.4rem;
+    text-align: left;
+    color:  rgb(245, 181, 83);
+  
+}
+.goback{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+#company{
+    margin-top: 3vh;
+}
+#VanDesc-rent{
+    margin-top: 4vh;
+    width: 80vw;
+    color: white;
+}

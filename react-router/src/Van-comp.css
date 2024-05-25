@@ -1,0 +1,24 @@
+.van-comp{
+    
+    background-color: rgba(245, 180, 83, 0.3);
+    
+}
+.van-comp:hover{
+    background-color: rgba(245, 180, 83, 0.5);
+    transition-duration: 1s;
+    color: white;
+    box-shadow: 3px 4px 2px bisque;
+}
+.van-comp img{
+    border-radius: 10px;
+}
+.van-comp button{
+    border: 2px solid burlywood;
+}
+.container-vans{
+    display: grid;
+    grid-template-columns: repeat(1,1fr 1fr);
+    gap: 5vw;
+    width: 93vw;
+    
+}

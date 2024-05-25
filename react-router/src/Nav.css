@@ -1,0 +1,69 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #854836;
+    max-width: 100vw;
+    padding: 15px;
+    font-weight: bolder;
+    height: 12vh;
+    color :#f5b553;
+    box-sizing: border-box;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    
+}
+.title{
+    font-size: 1.5rem;
+}
+h2 .top{
+    font-weight:900;
+    text-decoration: none;
+}
+button{
+    
+    border: none;
+    background-color: #cbbdae;
+}
+
+button {
+    --b: 3px;   /* border thickness */
+    --s: .15em; /* size of the corner */
+    --c: #BD5532;
+    
+    padding: calc(.05em + var(--s)) calc(.3em + var(--s));
+    
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--c) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .2em;
+  }
+  button:hover,
+  button:focus-visible{
+    --_p: 0px;
+    outline-color: var(--c);
+    outline-offset: .05em;
+  }
+  button:active {
+    background: var(--c);
+    color: #fff;
+  }
+  button {
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin: .1em;
+    padding: 15px;
+    min-width: 15vw;
+    color: #f5b553;
+    border-radius: 10px;
+  }
+  Link .title{
+    text-decoration: none;
+  }
